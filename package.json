@@ -4,7 +4,7 @@
   "description": "React SDK for Feedsnap - User feedback collection widget",
   "main": "dist/feedsnap-sdk.umd.js",
   "module": "dist/feedsnap-sdk.mjs",
-  "types": "dist/index.d.ts",
+  "types": "dist/types/index.d.ts",
   "files": [
     "dist"
   ],
@@ -25,12 +25,14 @@
     "@types/node": "^22.10.1",
     "@types/react": "^19.0.1",
     "@vitejs/plugin-react": "^4.3.4",
-    "react": "^19.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "typescript": "^5.7.2",
-    "vite": "^6.0.3"
+    "vite": "^6.0.3",
+    "vite-plugin-dts": "^4.3.0"
   },
   "peerDependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
   }
 }
